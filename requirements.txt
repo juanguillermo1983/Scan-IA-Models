@@ -1,0 +1,15 @@
+# ====================================================
+#  SCANNER AUTÓNOMO DE MODELOS IA — v5.0
+#  Banco — Requisitos de instalación
+#
+#  Instalación desde Nexus:
+#  pip install -r requirements.txt \
+#    --index-url https://USUARIO:PASSWORD@banco-central-de-chile.repo.sonatype.app/repository/pypi-proxy/simple/ \
+#    --trusted-host banco-central-de-chile.repo.sonatype.app
+# ====================================================
+
+# ── Análisis de archivos Pickle (formato PyTorch .bin / .pkl)
+fickling>=0.0.7
+
+# ── Escaneo de modelos ML (soporta .bin, .h5, .pkl, .safetensors)
+modelscan>=0.5.0
